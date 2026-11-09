@@ -1,0 +1,262 @@
+{
+  "items": [
+    {
+      "label": "Acasă",
+      "href": "#/"
+    },
+    {
+      "label": "Primaria",
+      "href": "#/primaria-vinju-mare",
+      "children": [
+        {
+          "label": "Organigrama",
+          "href": "#/category/primaria-vinju-mare/organigrama"
+        },
+        {
+          "label": "Audiențe",
+          "href": "#/category/primaria-vinju-mare/audiente"
+        },
+        {
+          "label": "Primar",
+          "href": "#/category/primaria-vinju-mare/primar"
+        },
+        {
+          "label": "Secretar",
+          "href": "#/category/primaria-vinju-mare/secretar"
+        }
+      ]
+    },
+    {
+      "label": "Consiliul local",
+      "href": "#/category/consiliul-local-vinju-mare",
+      "children": [
+        {
+          "label": "Regulament",
+          "href": "#/category/consiliul-local-vinju-mare/regulament"
+        },
+        {
+          "label": "Consilieri locali",
+          "href": "#/category/consiliul-local-vinju-mare/consilieri-locali"
+        },
+        {
+          "label": "Hotărâri Consiliul local",
+          "href": "#/category/consiliul-local-vinju-mare/hotarari-consiliul-local"
+        },
+        {
+          "label": "Procese verbale Consiliul local",
+          "href": "#/category/consiliul-local-vinju-mare/procese-verbale-consiliul-local"
+        },
+        {
+          "label": "Comisii de specialitate",
+          "href": "#/category/consiliul-local-vinju-mare/comisii-de-specialitate"
+        },
+        {
+          "label": "Rapoartele de activitate ale consilierilor locali",
+          "href": "#/category/consiliul-local-vinju-mare/rapoartele-de-activitate-ale-consilierilor-locali"
+        }
+      ]
+    },
+    {
+      "label": "Informații publice",
+      "href": "#/category/informatii-publice",
+      "children": [
+        {
+          "label": "Strategia de dezvoltare",
+          "href": "#/category/informatii-publice/strategia-de-dezvoltare"
+        },
+        {
+          "label": "Buget",
+          "href": "#/category/informatii-publice/buget"
+        },
+        {
+          "label": "Ștat de funcții",
+          "href": "#/stat-de-functii"
+        },
+        {
+          "label": "Formulare",
+          "href": "#/formulare",
+          "children": [
+            {
+              "label": "Tipizate",
+              "href": "#/tipizate",
+              "children": [
+                {
+                  "label": "Compartimentul de asistenta sociala",
+                  "href": "#/compartimentul-de-asistenta-sociala",
+                  "children": [
+                    {
+                      "label": "Alocatie de sustinere a familiei",
+                      "href": "#/alocatie-de-sustinere-a-familiei"
+                    },
+                    {
+                      "label": "Venit minim garantat",
+                      "href": "#/venit-minim-garantat"
+                    },
+                    {
+                      "label": "Ajutor incalzire",
+                      "href": "#/ajutor-incalzire"
+                    },
+                    {
+                      "label": "Alocatie de stat",
+                      "href": "#/alocatie-de-stat"
+                    },
+                    {
+                      "label": "Documente HG 691 din 2015",
+                      "href": "#/documente-hg-691-din-2015"
+                    },
+                    {
+                      "label": "Handicap adulti",
+                      "href": "#/handicap-adulti"
+                    },
+                    {
+                      "label": "Handicap copii",
+                      "href": "#/handicap-copii"
+                    },
+                    {
+                      "label": "Indemnizatie crestere copil",
+                      "href": "#/indemnizatie-crestere-copil"
+                    },
+                    {
+                      "label": "Stimulent de insertie",
+                      "href": "#/stimulent-de-insertie"
+                    },
+                    {
+                      "label": "Stimulent educational(tichet social de gradinita)",
+                      "href": "#/stimulent-educationaltichet-social-de-gradinita"
+                    },
+                    {
+                      "label": "Tichet social pe suport electronic",
+                      "href": "#/tichet-social-pe-suport-electronic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Investiții",
+          "href": "#/category/informatii-publice/investitii"
+        },
+        {
+          "label": "Raportul anual",
+          "href": "#/category/informatii-publice/raportul-anual-privind-starea-economica-sociala-si-de-mediu"
+        },
+        {
+          "label": "Relații cu publicul",
+          "href": "#/category/informatii-publice/relatii-cu-publicul"
+        },
+        {
+          "label": "Adrese utile",
+          "href": "#/adrese-utile"
+        },
+        {
+          "label": "Prelucrarea si protectia datelor cu caracter personal",
+          "href": "#/prelucrarea-si-protectia-datelor-cu-caracter-personal"
+        }
+      ]
+    },
+    {
+      "label": "Anunțuri",
+      "href": "#/category/anunturi",
+      "children": [
+        {
+          "label": "Anunțuri concesionări, închirieri, vânzări",
+          "href": "#/category/anunturi/anunturi-concesionari-inchirieri-vanzari"
+        },
+        {
+          "label": "Anunțuri concursuri și examene",
+          "href": "#/category/anunturi/anunturi-concursuri-si-examene"
+        },
+        {
+          "label": "Anunțuri diverse",
+          "href": "#/category/anunturi/anunturi-diverse"
+        },
+        {
+          "label": "Anunțuri achiziții",
+          "href": "#/category/anunturi/anunturi-achizitii"
+        }
+      ]
+    },
+    {
+      "label": "Dezvoltare",
+      "href": "#/category/dezvoltare",
+      "children": [
+        {
+          "label": "Agricultura",
+          "href": "#/category/dezvoltare/agricultura"
+        },
+        {
+          "label": "Parteneri",
+          "href": "#/category/dezvoltare/parteneri"
+        },
+        {
+          "label": "Proiecte investiționale",
+          "href": "#/category/dezvoltare/proiecte-investitionale"
+        }
+      ]
+    },
+    {
+      "label": "MONITORUL OFICIAL LOCAL",
+      "href": "#/monitorul-oficial-local",
+      "children": [
+        {
+          "label": "STATUTUL UNITĂȚII ADMINISTRATIV-TERITORIALE;",
+          "href": "#/category/monitorul-oficial-local/statutul-unitatii-administrativ-teritoriale"
+        },
+        {
+          "label": "REGULAMENTELE PRIVIND PROCEDURILE ADMINISTRATIVE",
+          "href": "#/category/monitorul-oficial-local/regulamentele-privind-procedurile-administrative"
+        },
+        {
+          "label": "HOTĂRÂRILE AUTORITĂȚII DELIBERATIVE",
+          "href": "#/category/monitorul-oficial-local/hotararile-autoritatii-deliberative"
+        },
+        {
+          "label": "DISPOZIȚIILE AUTORITĂȚII EXECUTIVE",
+          "href": "#/category/monitorul-oficial-local/dispozitiile-autoritatii-executive"
+        },
+        {
+          "label": "DOCUMENTE ȘI INFORMAȚII FINANCIARE",
+          "href": "#/category/monitorul-oficial-local/documente-si-informatii-financiare"
+        },
+        {
+          "label": "ALTE DOCUMENTE",
+          "href": "#/category/monitorul-oficial-local/alte-documente"
+        }
+      ]
+    },
+    {
+      "label": "D.A.I",
+      "href": "#/d-a-i",
+      "children": [
+        {
+          "label": "2020",
+          "href": "#/2020-2",
+          "children": [
+            {
+              "label": "Declarații de avere",
+              "href": "#/category/consiliul-local-vinju-mare/declaratii-de-avere"
+            },
+            {
+              "label": "Declarații de interese",
+              "href": "#/category/consiliul-local-vinju-mare/declaratii-de-interese"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "ALEGERI 2024",
+      "href": "#/alegeri-2024"
+    },
+    {
+      "label": "Salubrizare",
+      "href": "#/category/salubrizare"
+    },
+    {
+      "label": "Contact",
+      "href": "#/contact"
+    }
+  ]
+}

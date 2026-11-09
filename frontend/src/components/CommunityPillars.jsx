@@ -1,0 +1,133 @@
+import React from 'react';
+import { ArrowRight, Compass, TrendingUp, Users, Clock } from 'lucide-react';
+import { HOMEPAGE_MEDIA } from '../mediaData';
+import { cleanInternalHref } from '../routing';
+
+export default function CommunityPillars() {
+  const { pillars = [], strategicFocus = [], leadership = [] } = HOMEPAGE_MEDIA || {};
+
+  return (
+    <div className="community-showcase-container">
+      {/* 1. Cei 4 Piloni de Dezvoltare */}
+      <section className="container community-pillars-section" aria-label="Domenii principale de dezvoltare">
+        <div className="section-title-wrap max-w-3xl">
+          <span className="eyebrow"><span />DOMENII PRINCIPALE</span>
+          <h2>Dezvoltarea Orașului Vânju Mare</h2>
+          <p className="section-subtext">
+            Direcțiile prioritare de acțiune pentru modernizarea infrastructurii urbane, valorificarea potențialului viticol și sprijinirea comunității locale.
+          </p>
+        </div>
+
+        <div className="pillars-grid">
+          {pillars.map((item, idx) => (
+            <article key={idx} className="pillar-card group overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-sky-200 hover:shadow-xl">
+              <a href={cleanInternalHref(item.href)} className="pillar-img-link" tabIndex={-1} aria-hidden="true">
+                <img src={item.image} alt={item.title} loading="lazy" />
+              </a>
+              <div className="pillar-body">
+                <h3>
+                  <a href={cleanInternalHref(item.href)}>{item.title}</a>
+                </h3>
+                <p>{item.description}</p>
+                <a href={cleanInternalHref(item.href)} className="pillar-more-link">
+                  <span>Află detalii</span>
+                  <ArrowRight size={16} />
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      {/* 2. Priorități Strategice și Buget */}
+      <section className="strategic-focus-section" aria-label="Inițiative strategice">
+        <div className="container">
+          <div className="section-title-wrap text-center mx-auto max-w-3xl">
+            <span className="eyebrow">TRANSPARENȚĂ &amp; VIZIUNE</span>
+            <h2>Inițiative Strategice &amp; Finanțe Publice</h2>
+          </div>
+
+          <div className="strategic-grid">
+            {strategicFocus.map((item, idx) => (
+              <div key={idx} className="strategic-card overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-sky-200 hover:shadow-xl">
+                <div className="strategic-img-wrap">
+                  <img src={item.image} alt={item.title} loading="lazy" />
+                  <span className="strategic-badge">{item.badge}</span>
+                </div>
+                <div className="strategic-content">
+                  <h3>{item.title}</h3>
+                  <p>{item.description}</p>
+                  <a href={cleanInternalHref(item.href)} className="button outline">
+                    <span>Consultă documentele</span>
+                    <ArrowRight size={16} />
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 3. Conducerea Executivă & Aparatul de Specialitate */}
+      <section className="container leadership-section" aria-label="Echipa administrativă">
+        <div className="leadership-header-flex">
+          <div className="section-title-wrap max-w-3xl">
+            <span className="eyebrow">
+              <Users size={14} style={{ display: 'inline', marginRight: 6 }} />
+              ADMINISTRAȚIA LOCALĂ
+            </span>
+            <h2>Conducerea Executivă &amp; Administrația Orașului</h2>
+            <p className="section-subtext">
+              Reprezentanții aleși și corpul administrativ al Primăriei Orașului Vânju Mare, responsabili de dezvoltarea durabilă a comunității.
+            </p>
+          </div>
+          <div className="leadership-header-action">
+            <a href="#/organigrama-primariei-orasului-vinju-mare" className="button outline organigrama-link">
+              <span>Organigramă completă</span>
+              <ArrowRight size={16} />
+            </a>
+          </div>
+        </div>
+
+        <div className="leadership-grid">
+          {leadership.map((member) => (
+            <div
+              key={member.id}
+              className={`leadership-card rounded-xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-sky-200 hover:shadow-lg ${member.isMayor ? 'is-mayor' : ''}`}
+            >
+              <div className="leadership-avatar-col">
+                {member.image ? (
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="leadership-photo"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="leadership-monogram" aria-hidden="true">
+                    {member.initials}
+                  </div>
+                )}
+              </div>
+              <div className="leadership-info-col">
+                <span className={`leadership-status-badge ${member.isMayor ? 'badge-mayor' : ''}`}>
+                  {member.status}
+                </span>
+                <h3 className="leadership-name">{member.name}</h3>
+                <div className="leadership-role">{member.role}</div>
+                <div className="leadership-dept">{member.dept}</div>
+                {member.schedule && (
+                  <div className="mt-2 text-xs text-slate-500 flex items-center gap-1.5">
+                    <Clock size={13} className="text-sky-700" />
+                    <span>Audiențe: {member.schedule}</span>
+                  </div>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  );
+}
+

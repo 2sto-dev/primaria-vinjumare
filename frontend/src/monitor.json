@@ -1,0 +1,122 @@
+{
+  "registers": [
+    {
+      "id": 1,
+      "slug": "statutul-uat",
+      "title": "Statutul Unității Administrativ-Teritoriale",
+      "description": "Documentul de bază al comunității locale Vânju Mare."
+    },
+    {
+      "id": 2,
+      "slug": "regulamente-proceduri",
+      "title": "Regulamentele privind procedurile administrative",
+      "description": "Regulamente aprobate de Consiliul Local și proceduri de lucru."
+    },
+    {
+      "id": 3,
+      "slug": "hotarari-consiliu",
+      "title": "Hotărârile autorității deliberative (HCL)",
+      "description": "Toate hotărârile adoptate de Consiliul Local Vânju Mare."
+    },
+    {
+      "id": 4,
+      "slug": "dispozitii-primar",
+      "title": "Dispozițiile autorității executive",
+      "description": "Dispozițiile emise de Primarul Orașului Vânju Mare."
+    },
+    {
+      "id": 5,
+      "slug": "documente-financiare",
+      "title": "Documente și informații financiare",
+      "description": "Bugetul local, situațiile financiare și execuția bugetară."
+    },
+    {
+      "id": 6,
+      "slug": "alte-documente",
+      "title": "Alte documente de interes public",
+      "description": "Declarații de avere și interese, rapoarte anuale, anunțuri publice."
+    }
+  ],
+  "entries": [
+    {
+      "id": 101,
+      "register": "hotarari-consiliu",
+      "number": "12",
+      "year": 2024,
+      "date": "2024-02-28",
+      "title": "Hotărârea nr. 12 privind aprobarea Bugetului Local de venituri și cheltuieli pe anul 2024",
+      "description": "Bugetul general consolidat al Orașului Vânju Mare pentru anul curent.",
+      "file_url": "#/monitorul-oficial-local"
+    },
+    {
+      "id": 102,
+      "register": "dispozitii-primar",
+      "number": "45",
+      "year": 2024,
+      "date": "2024-03-15",
+      "title": "Dispoziția nr. 45 privind convocarea Consiliului Local în ședință ordinară",
+      "description": "Convocarea consilierilor locali conform Codului Administrativ.",
+      "file_url": "#/monitorul-oficial-local"
+    },
+    {
+      "id": 103,
+      "register": "statutul-uat",
+      "number": "1",
+      "year": 2023,
+      "date": "2023-05-10",
+      "title": "Statutul Orașului Vânju Mare, Județul Mehedinți",
+      "description": "Cadrul de organizare, simbolurile heraldice și delimitarea teritorială a orașului.",
+      "file_url": "#/monitorul-oficial-local"
+    },
+    {
+      "id": 104,
+      "register": "documente-financiare",
+      "number": "3",
+      "year": 2024,
+      "date": "2024-04-10",
+      "title": "Raport de execuție bugetară — Trimestrul I",
+      "description": "Execuția veniturilor și a cheltuielilor bugetului local.",
+      "file_url": "#/monitorul-oficial-local"
+    },
+    {
+      "id": 201,
+      "register": "hotarari-consiliu",
+      "number": "2",
+      "year": 2026,
+      "date": "2026-01-25",
+      "title": "Hotărârea nr. 2 privind stabilirea impozitelor și taxelor locale pe anul 2026",
+      "description": "Indexarea taxelor și impozitelor locale și aprobarea bonificației de 10% pentru plată anticipată.",
+      "file_url": "#/anunt-colectare-taxe-si-impozite"
+    },
+    {
+      "id": 202,
+      "register": "regulamente-proceduri",
+      "number": "5",
+      "year": 2026,
+      "date": "2026-01-10",
+      "title": "Regulament privind serviciul public de salubrizare și graficul de ridicare a deșeurilor",
+      "description": "Programul operatorului de salubrizare și regulile de colectare selectivă pe raza orașului Vânju Mare.",
+      "file_url": "#/grafic-ridicare-gunoi-menajer"
+    },
+    {
+      "id": 203,
+      "register": "dispozitii-primar",
+      "number": "18",
+      "year": 2025,
+      "date": "2025-10-10",
+      "title": "Dispoziția nr. 18 privind acordarea ajutoarelor pentru încălzirea locuinței (sezon rece 2025-2026)",
+      "description": "Stabilirea măsurilor de protecție socială și a comisiei de verificare a cererilor depuse.",
+      "file_url": "#/acte-necesare-ajutor-de-incalzire-2025"
+    },
+    {
+      "id": 204,
+      "register": "alte-documente",
+      "number": "5971",
+      "year": 2025,
+      "date": "2025-12-02",
+      "title": "Anunț pentru comunicarea prin publicitate nr. 5971/02.12.2025",
+      "description": "Acte administrative fiscale afișate la sediul primăriei și pe pagina de internet.",
+      "file_url": "#/anunturi-comunicare-publicitate"
+    }
+  ]
+}

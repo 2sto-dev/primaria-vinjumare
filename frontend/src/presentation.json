@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "eyebrow": "ORAȘUL VÂNJU MARE, JUDEȚUL MEHEDINȚI",
+    "title": "Comunitate, tradiție și viitor.",
+    "subtitle": "Administrație deschisă în",
+    "accent": "Vânju Mare.",
+    "description": "Bine ați venit pe pagina oficială a Primăriei Orașului Vânju Mare. Informații publice, acte administrative, formulare de asistență socială și servicii digitale pentru cetățeni.",
+    "primary": {
+      "label": "Formulare și servicii",
+      "href": "#/tipizate"
+    },
+    "secondary": {
+      "label": "Despre oraș",
+      "href": "#/primaria-vinju-mare"
+    },
+    "location": "Vânju Mare • Mehedinți"
+  },
+  "quick_links": [
+    {
+      "icon": "file",
+      "title": "Formulare și tipizate",
+      "text": "Documente și cereri pentru cetățeni",
+      "href": "#/tipizate"
+    },
+    {
+      "icon": "users",
+      "title": "Asistență socială",
+      "text": "Ajutoare încălzire, alocații, tichete",
+      "href": "#/compartimentul-de-asistenta-sociala"
+    },
+    {
+      "icon": "landmark",
+      "title": "Monitorul Oficial Local",
+      "text": "Hotărâri HCL și Dispoziții Primar",
+      "href": "#/monitorul-oficial-local"
+    },
+    {
+      "icon": "book",
+      "title": "Conducere & Administrație",
+      "text": "Primar, Viceprimar, Secretar, Audiențe",
+      "href": "#/primaria-vinju-mare"
+    }
+  ],
+  "news": {
+    "eyebrow": "NOUTĂȚI & ANUNȚURI",
+    "title": "Anunțuri oficiale și documente de interes public",
+    "href": "#/anunturi"
+  }
+}
+
